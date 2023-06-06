@@ -1,0 +1,36 @@
+$blue: #4361ee;
+
+.root {
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  position: relative;
+
+  &:hover {
+    border: 1px solid $blue;
+    box-shadow: 0 0 0 1px $blue;
+  }
+}
+
+.wrapper {
+  padding: 10px 20px 20px;
+}
+
+
+.indention {
+  padding-left: 40px;
+}
+
+.skeleton {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
